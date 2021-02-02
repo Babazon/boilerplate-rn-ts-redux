@@ -29,14 +29,6 @@ const ItemDetail = (props: PropsFromRedux) => {
       <View>
         <Text style={styles.header}> </Text>
       </View>
-      {/*
-          Wrapper with margin and padding
-          Avatar on top
-          Title/Applied positions
-          Other information and details (contact info)(Communications enable)
-          map answers
-          Use collapsible where possible
-      */}
     </ScrollView>
   );
 };

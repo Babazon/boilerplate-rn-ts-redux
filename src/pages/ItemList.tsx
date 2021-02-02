@@ -32,6 +32,7 @@ const ItemList = (props: PropsFromRedux) => {
         keyExtractor={(item: {id: string}) => item.id}
         renderItem={({item}: {item: Item}) => (
           <TouchableOpacity
+            key={item.id}
             onPress={() => {
               props.selectItem(item);
               navigation.navigate('ItemList');
